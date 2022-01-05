@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+  .cntSearchBody {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto 175px auto !important;
+    text-align: center;
+    padding: 11px 15px 0;
+  }
+  .container1 {
+    padding-top:15px;
+  }
+  .search_button_place {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #1574f5;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #1574f5;
+    border-radius: 0 2px 2px 0;
+    padding: 0 21px;
+    /*margin-left: 55px;*/
+    white-space: nowrap;
+}
+  #divSearchPlace{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .divSearch{
+    width: 100%;
+  }
+  #my_location{
+    position: absolute;
+    top: 13px;
+    color: #000;
+    left: 5px;
+  }
+  .product-background {
+    background-color: #ffffff;
+    background-image: url(http://localhost/ZeEat/zefrontend/img/backgroundHome.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 50px !important;
+    padding-bottom: 110px !important;
+  }
+  .faq-div{
+    background-color: #ffffff;
+    background-image: url(http://localhost/ZeEat/zefrontend/img/faq.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 50px !important;
+    padding-bottom: 110px !important;
+  }
+
+  .fc-white, .h\:fc-white:hover, .f\:fc-white:focus {
+    color: var(--white) !important;
+  }
+
+  .p-ff-roboto-slab-bold {
+    font-family: "Roboto Slab Bold",serif;
+    font-weight: 700;
+  }
+
+  .width-90 {
+    width: 90% !important;
+  }
+
+  .ta-center {
+    text-align: center !important;
+  }
+
+  .fs-4 {
+    font-size: 4rem !important;
+  }
+
+  .mlr-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .mb-16 {
+    margin-bottom: 16px !important;
+  }
+
+  .mxw-30 {
+    max-width: 30rem !important;
+  }
+
+  .width-90 {
+    width: 90% !important;
+  }
+
+  .ta-center {
+    text-align: center !important;
+  }
+
+  .fs-2 {
+    font-size: 1.5rem !important;
+  }
+
+  .mlr-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .mb-24 {
+    margin-bottom: 24px !important;
+  }
+
+  .pdtb-12 {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+
+  .pdlr-24 {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  .bg-white, .h\:bg-white:hover, .f\:bg-white:focus {
+    background-color: var(--white) !important;
+  }
+
+  .co-000000, .h\:co-000000:hover, .f\:co-000000:focus {
+    color: #000000 !important;
+  }
+
+  .br-3 {
+    border-radius: 3px !important;
+  }
+
+  .ba {
+    border-style: solid !important;
+    border-width: 1px !important;
+  }
+
+  /**** business**/
+  @media (max-width: 640px){
+    html.html__responsive.html__unpinned-leftnav .sm\:ml0 {
+      margin-left: 0 !important;
+    }
+  }
+  
+  @media (max-width: 640px){
+    html.html__responsive.html__unpinned-leftnav .sm\:mt8 {
+      margin-top: 8px !important;
+    }
+  }
+
+  .pdtb-12 {
+      padding-top: 12px !important;
+      padding-bottom: 12px !important;
+  }
+
+  .pdlr-24 {
+      padding-left: 24px !important;
+      padding-right: 24px !important;
+  }
+
+  .ml-8 {
+      margin-left: 8px !important;
+  }
+
+  .bg-orange-400, .h\:bg-orange-400:hover, .f\:bg-orange-400:focus {
+      background-color: var(--orange-400) !important;
+  }
+
+  .br-3 {
+      border-radius: 3px !important;
+  }
+
+  /***business**/
+  .fs-1 {
+    font-size: 1rem !important;
+  }
+
+  .grid {
+      display: flex;
+  }
+
+  .ai-center {
+      align-items: center !important;
+  }
+
+  .jc-center {
+      justify-content: center !important;
+  }
+
+  .search{
+    display: flex;
+    flex-grow: 1;
+  }
+  .searchTerm {
+    /*width: 100%;*/
+    border: 1px solid #000000;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 15px;
+    height: 3rem;
+    border-radius: 2px 0 0 2px;
+    padding: 0 1rem 0 2.7rem;
+    outline: none;
+  }
+
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #ffffff;
+    background: #282c34;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .wrapSearch{
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    text-align: left;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
+  }
+
+  #searchOptionWell{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 3%;
+    height: 38px;
+  }
+
+  #searchOption{
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    border-color: #000000;
+  }
+
+  #divSortBy{
+    display: flex;
+    margin-top: 20px;
+  }
+  /*select sort by*/
+.custom-select {
+  position: relative;
+  width: 130px !important;
+  height: 40px !important;
+  border: 1px solid #000000;;
+  border-radius: 4px;
+  border-color: #000000;
+}
+
+.cntCardBody {
+  font-size: 2em;
+  display: flex;
+  flex: 1 1 calc(100% / 6 - 0.4em);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  outline: 0.08em solid rgb(0, 0, 0);
+  margin: 0.2em;
+  margin-top: 2%;
+  cursor: default;
+}
+/************Caroussel*************/
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+.picProjectEntrepreneur {vertical-align: middle;width:300px;height: 500px;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+/*.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}*/
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.cntEntrepreneurBody {
+  font-size: 2em;
+  display: flex;
+  flex: 1 1 calc(100% / 6 - 0.4em);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0.2em;
+  margin-top: 2%;
+  cursor: default;
+}*/
+
+.projectBodyContainer, .projectEntrepreneurContainer {
+  /*color: white;
+  font: small-caps bold 24px/1 sans-serif;*/
+  font-size: 15px;
+  width: 100%;
+  /*height: 750px;*/
+}
+.imgProjectVis {
+  width: 100%;
+  height: 65%;
+}
+/*.imgProjectVis:hover{
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px black);
+}*/
+
+.imgEntrepreneurVis{
+  width: 220px;
+  height: 65%;
+  border-radius: 50%;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.imgEntrepreneurVis:hover{
+  border-radius: 0%;
+  -webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+#projectVisiteur{
+  font-size: 2rem;
+  max-width: 960px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 34px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ptb-64 {
+  color: #ffffff;
+  padding-top: 120px !important;
+  padding-bottom: 64px !important;
+}
+.width-90 {
+  width: 90% !important;
+}
+
+.wmx5 {
+  max-width: 40.5128205rem !important;
+}
+.mb48 {
+  margin-bottom: 48px !important;
+}
+.wmx10 {
+  max-width: 81.025641rem !important;
+}
+.width-90 {
+  width: 90% !important;
+}
+
+
+
+  html.html__responsive.html__unpinned-leftnav .md\:ai-center {
+    align-items: center !important;
+  }
+
+  html.html__responsive.html__unpinned-leftnav .md\:fd-column {
+    flex-direction: column !important;
+  }
+
+  @media (max-width: 550px){
+    .searchTerm {
+      width: 220px;
+    }
+    .search_button_place {
+      font-size: 0px;
+    }
+  }
+
+@media (max-width: 640px){
+  html.html__responsive.html__unpinned-leftnav .fs-1 {
+    font-size: 1.3rem !important;
+  }
+}
+
+
+
+
+.grid__allcells4>.grid, .grid__allcells4>.grid--cell {
+    flex-basis: 33.33333333%;
+}
+.wmx3 {
+    max-width: 24.3076923rem !important;
+}
+.bs-md {
+    box-shadow: var(--bs-md) !important;
+}
+
+.aj-c {
+  align-items: center;
+  justify-content: center;
+}
+.steps_inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 75px;
+}
+.listbox_boxes{
+  display: flex;
+}
+.step_seperator {
+  margin: 55px 35px 0px 0px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #737373;
+}
+
+.steps_subheadline{
+  color: #0a3847;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.steps_mainheadline {
+  font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 70px;
+  color: #ff8000;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+.step_number {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #1574f5;
+  font-size: 15px;
+  left: 30%;
+  top: -30px;
+}
+.step_icon {
+  font-family: fontello;
+  line-height: 110px;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+}
+.step_headline{
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.step_wrapper{
+  font-size: 12px;
+  margin-left: 3%;
+}
+@media (max-width: 640px){
+  .step_wrapper {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+}
+.p_how{
+  text-align: center;
+  font-size: 15px;
+}
+.hr_sep{
+  background-color: #ffffff;
+  padding: 20px 0px 10px 0px;
+}
+.content_how{
+  background-color: #ffffff;
+}
+.prox_city{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  padding-bottom: 100px;
+}
+.h1_collab_city{
+  font-size: 20px;
+}
+.map_city{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  .cntSearchBody {
+    max-width: 333px;
+  }
+}

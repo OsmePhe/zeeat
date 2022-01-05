@@ -1,0 +1,242 @@
+.forms_account {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details_account {
+    display: flex;
+}
+.details_account_input, .password_account_input{
+    display: flex;
+    margin: 0px 20px 20px 0px;
+    flex-direction: column;
+}
+.label_h2_account {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px 0px 15px 0px;
+}
+.label_h1_account {
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px 0px 25px 0px;
+}
+.input_account{
+    width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.div_account {
+    background-color: #ffffff;
+}
+@media screen and (max-width: 400px) {
+    .label_h1_account {
+        font-size: 20px;
+        margin: 0px 0px 25px 0px;
+    }
+    .label_h2_account {
+        font-size: 17px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .details_account_input, .password_account_input{
+      margin: 0px 0px 0px 0px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .divBtnEditPwd{
+      margin: 0px 0px 25px 0px;
+    }
+  }
+  .openModalAdress {
+    display: inline;
+    box-shadow: 0 0 5px -1px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    vertical-align: middle;
+    color: #ffffff;
+    background: #20b902;
+    padding: 10px;
+    border-radius: 2px 2px 2px 2px;
+    margin: 0px 10px 25px 0px;
+    text-align: center;
+  }
+  .openModalAdress:active {
+    background:#105f00;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+  }
+  .openModalAdress:hover {
+    background:#105f00;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+  }
+  .openModalAdressMod{
+    display: inline;
+    box-shadow: 0 0 5px -1px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    vertical-align: middle;
+    color: #ffffff;
+    background: #fcff67;
+    padding: 10px;
+    border-radius: 2px 2px 2px 2px;
+    margin: 0px 10px 25px 0px;
+    text-align: center;
+  }
+  .openModalAdressMod:active {
+    background:#fcff67;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+  }
+  .openModalAdressMod:hover {
+    background:#fcff67;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+  }
+  .divBtnEditPwd {
+    display: inline;
+    box-shadow: 0 0 5px -1px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    vertical-align: middle;
+    color: #ffffff;
+    background: #fcff67;
+    padding: 10px;
+    border-radius: 2px 2px 2px 2px;
+    margin: 0px 0px 25px 0px;
+    text-align: center;
+  }
+  .divBtnEditPwd:active {
+    background:#fcff67;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+  }
+  .divBtnEditPwd:hover {
+    background:#fcff67;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+  }
+  .label-div-modal{
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px 10px 50px 10px;
+    border: 1px solid #888;
+    width: 500px;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .modal-content {
+        width: 325px;
+        
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .my_location_account {
+      top: 12px!important;
+      left: 12px !important;
+      padding: 0 0 0 0 !important;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .adress_principale, .adress_secondaire {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #modal_adresse{
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  #divBtnAddAdresse{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .inputModalAdresse{
+    display: flex;
+    justify-content: center;
+  }
+  .adress_principale, .adress_secondaire{
+    display: flex;
+  }
+  .label_adrs {
+      padding: 10px 15px 0px 0px;
+  }
+  .btn_adrs {
+    margin-top: 10px;
+  }
+  .div_adrs{
+    margin: 15px;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+  .saveEdit {
+    display: inline;
+    box-shadow: 0 0 5px -1px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    vertical-align: middle;
+    color: #ffffff;
+    background: #15a9ff;
+    padding: 10px;
+    border-radius: 2px 2px 2px 2px;
+    margin: 0px 10px 25px 0px;
+    text-align: center;
+  }
+  .saveEdit:active {
+    background:#004aac;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+  }
+  .saveEdit:hover {
+    background:#004aac;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+  }
+  .divSaveEdit{
+    display: flex;
+    margin: 10px 0px 50px 0;
+    justify-content: center;
+  }

@@ -1,0 +1,36 @@
+li:hover, a:hover {
+    text-decoration: none !important;
+}
+.cntEtablissement{
+    margin: -175px 3% 0 3%;
+}
+.picEtablissement{
+    width: 275px;
+    height: 180px;
+    margin: 10px;
+}
+.h3itemEtablissement{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3%;
+    color: black;
+}
+.h5itemEtablissement{
+    font-size: 15px;
+    margin-left: 3%;
+    color: black;
+}
+#proxEtbt, #offreJour, #nouvelEtbt{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+/*.cntSearchBody {
+    margin: 20px auto 65px auto !important;
+}*/
+@media screen and (max-width: 400px) {
+    .picEtablissement {
+      max-width: 325px !important;
+    }
+  }
+  

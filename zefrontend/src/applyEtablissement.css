@@ -1,0 +1,105 @@
+/*.App-header{
+    background-color: #262626 !important;
+}*/
+.forms_apply_restaurant{
+    margin-top: -16px;
+    background-image: url(http://localhost/ZeEat/zefrontend/img/partenaire1_background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.div_restaurant {
+    background-color: #ffffff;
+}
+.div_forms_apply_restaurant{
+    margin-left: 10%;
+    background-color: white;
+}
+.label_h1_apply_restaurant {
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px 0px 25px 0px;
+}
+@media screen and (max-width: 400px) {
+    .label_h1_apply_restaurant {
+        font-size: 20px;
+        margin: 0px 0px 25px 0px;
+    }
+  }
+.details_apply_restaurant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_apply_restaurant{
+    width: 425px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.apply_restaurant_input {
+    display: flex;
+    margin: 0px 20px 20px 10px;
+    flex-direction: column;
+}
+@media screen and (max-width: 400px) {
+    .apply_restaurant_input {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+@media screen and (max-width: 400px) {
+    .input_apply_restaurant {
+        width: 100%;
+    }
+  }
+@media screen and (max-width: 400px) {
+    .div_forms_apply_restaurant {
+        margin-left: 0% !important;
+    }
+}
+::-webkit-input-placeholder, select { /* Edge */
+  color: #000;
+}
+
+:-ms-input-placeholder, select { /* Internet Explorer */
+  color: #000;
+}
+
+::placeholder, select {
+  color: #000;
+}
+.divSaveEdit{
+    display: flex;
+    margin: 10px 0px 50px 0;
+    justify-content: center;
+}
+.politiqueZeeat{
+    font-size: x-small;
+}
+.why_why_partner{
+    display: flex;
+}
+.vcl_why_partner{
+    font-size: small;
+    text-align: center;
+    margin: 0px 20px 35px 0px;
+}
+.label_h1_why_partner{
+    font-size: 20px;
+    font-weight: bold;
+}
+.h1_why_partner{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.step_wrapper_1{
+    width: 32%;
+    text-align: center;
+}
+.steps_inner_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 75px;
+}

@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .rowPlats {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .infoEtablissement{
+    color: #ffffff;
+    padding-top: 205px;
+    margin-left: 10px;
+  }
+  .nomEtablissement{
+    font-family: "Roboto Slab Bold",serif;
+    font-size: 1.5rem;
+  }
+  .specEtablissement{
+    font-family: "Roboto Slab Bold",serif;
+    font-size: 1rem;
+  }
+  .adrssEtablissement{
+    font-family: "Roboto Slab Bold",serif;
+    font-size: 1rem;
+  }
+  .imgPrincipalPlat{
+    background-color: #ffffff;
+    background-image: url(http://localhost/ZeEat/zefrontend/img/plat_principal.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 300px;
+    margin: -300px 0 3% 0;;
+  }
+
+/****************************************************Modal*******************************************************/
+.label-div-modal{
+  color:#000;
+  font-size:13px;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+  padding-right: 20px;
+}
+/* Modal Content/Box */
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 600px; /*80% Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myModal {
+  display:  block;
+}
+
+.catg {
+  font-size: larger;
+  font-weight: bolder;
+}
+.containerCatg {
+  background: #F6F6F6;
+  margin-bottom: 15px;
+}
+.containerChoix {
+  margin-left: 20px;
+}
+.titleModalPlat {
+  font-size: 40px;
+  font-family: UberMove-Medium, sans-serif;
+}
+.subTitleModalPlat {
+  line-height: 20px;
+  color: #545454;
+}
+#divBtnSendLivrable {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+/********************************* Plus minus******************************************/
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  position: relative;
+}
+
+.input-group input[type='button'] {
+  background-color: #eeeeee;
+  min-width: 38px;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 38px;
+  left: -6px;
+  text-align: center;
+  width: 62px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+}
+.button-plus {
+  left: -13px;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}
+#divAddPlusMinus {
+  width: 45% !important;
+}
+/********************************************************************/
+.errorContainerModal {
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+.errorContainerModal {
+  color: #D8000C;
+  background-color: #FFBABA;
+  background-image: url("https://i.imgur.com/GnyDvKN.png");
+}
+#cntSearchBodyPlats {
+  align-items: center;
+  display: flex;
+}
+.divValidCommand {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
